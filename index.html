@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T.O.P. Foundations Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
-        <img src="" class="logo" alt="header logo">
+        <div class="header-logo">Header Logo</div>
         <!--logo goes here, needs src-->
         <ul class="header-links">
             <!--header links need URLs and href format check, then remove def. styling-->
@@ -30,7 +33,7 @@
     <div class="picture-section">
         <!--placeholder copy-->
         <!--pictures currently empty-->
-        <p>Some random information.</p> 
+        <p class="information-header">Some random information.</p> 
         <div class="picture-one">
             <img src="" alt="picture one">
             <p>some text under an image</p>
@@ -50,21 +53,25 @@
     </div>
     <!--quote section. this possibly require another box around the quote and attribution-->
     <div class="quote-section">
-        <div class="quote">this is an inspiring quote, or a testimonial from a customer.
-            maybe it's just filling up space, or maybe people will actually read it. 
-            who knows? All I know is that it looks nice. </div>
-        <div class="quote-attribution">-Thor, God of Thunder</div>
+        <div class="quote-text">
+            <div class="quote">This is an inspiring quote, or a testimonial from a customer.
+                maybe it's just filling up space, or maybe people will actually read it. 
+                who knows? All I know is that it looks nice. </div>
+            <div class="quote-attribution">-Thor, God of Thunder</div>
+        </div>
     </div>
     <!--CTA section with placeholder button-->
     <div class="CTA-section">
         <div class="CTA-blue-box">
-            <div class="CTA-bold">Call to action! It's time!</div>
-            <div class="CTA-text">Sign up for our product by clicking that button right over there!</div>
+            <div class="CTA-left">
+                <div class="CTA-bold">Call to action! It's time!</div>
+                <div class="CTA-text">Sign up for our product by clicking that button right over there!</div>
+            </div>
             <button class="sign-up-two" href="">Sign up</button>
         </div>
     </div>
     <!--footer section below. it may make sense to put all content between header
     and footer into a div box of its own-->
-    <div class="footer">Copyright "C symbol" The Odin Project 2021</div>
+    <div class="footer">Copyright © The Odin Project 2021</div>
 </body>
 </html>    
