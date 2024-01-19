@@ -18,3 +18,5 @@ a deliverable landing page HTML and CSS.
 
 This may be considered for portfolio display if demonstrating understanding
 of basic workflow. This may be part of a demo portfolio case study.
+
+/* 1.19.24 This is completed for assignment purposes, but is not polished for mobile display or completed with content. It is not yet ready for portfolio use. */
